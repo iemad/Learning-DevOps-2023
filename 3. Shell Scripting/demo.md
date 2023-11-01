@@ -100,41 +100,22 @@ To use the script:
 
 # SHELL-SCRIPTING HANDS-ON
 
-###### Variables and data types in shell scripting, along with examples:
-
-###### 1. Declaring Variables: In shell scripting, you can declare variables without specifying their data
-
-###### types. Variables are case-sensitive and can consist of letters, numbers, and underscores, but they
-
-###### must start with a letter or underscore. Here's how you declare a variable:
-
-variable_name=value
-
-###### 2. Variable Types: Shell scripting doesn't have strict data types like other programming
-
-###### languages. Variables are treated as strings by default, but you can manipulate them to behave as
-
-###### different types.
-
-###### 3. Variable Assignment and Manipulation: You can assign values to variables using the
-
-###### assignment operator =. Here are examples of various types of variable assignments and
-
-###### manipulations:
-
+Variables and data types in shell scripting, along with examples:
+1) *Declaring Variables*: In shell scripting, you can declare variables without specifying their data types. Variables are case-sensitive and can consist of letters, numbers, and underscores, but they must start with a letter or underscore. Here's how you declare a variable: `variable_name=value`
+2) *Variable Types*: Shell scripting doesn't have strict data types like other programming languages. Variables are treated as strings by default, but you can manipulate them to behave as different types.
+3) *Variable Assignment and Manipulation*: You can assign values to variables using the assignment operator =. Here are examples of various types of variable assignments and manipulations:
+```bash
 # String Variable
 name="John"
 echo "Hello, $name!" # Output: Hello, John!
 
 # Integer Variable
-age=
+age=25
 echo "Age: $age years" # Output: Age: 25 years
 
 # Arithmetic Operations
-x=
-
-
-y=
+x=10
+y=5
 sum=$((x + y))
 echo "Sum: $sum" # Output: Sum: 15
 
@@ -152,11 +133,9 @@ echo "Length: $length" # Output: Length: 15
 # Substring Extraction
 substring=${string: 0 :4} # Extracts first 4 characters
 echo "Substring: $substring" # Output: Substring: Shell
-
-###### 4. Command Substitution: You can capture the output of a command and assign it to a variable
-
-###### using command substitution. There are two ways to do this:
-
+```
+4) *Command Substitution*: You can capture the output of a command and assign it to a variable using command substitution. There are two ways to do this:
+```
 # Using Backticks
 current_date=`date`
 echo "Current date: $current_date"
@@ -164,50 +143,33 @@ echo "Current date: $current_date"
 # Using $(...)
 current_time=$(date +%H:%M:%S)
 echo "Current time: $current_time"
-
-###### 5. Readonly Variables: You can declare variables as readonly to prevent their values from being
-
-###### changed after initial assignment:
-
+```
+5) *Readonly Variables*: You can declare variables as readonly to prevent their values from being changed after initial assignment:
+```bash
 readonly pi=3.
 pi=3.14 # This will result in an error
-
-###### 6. Unsetting Variables: You can unset (delete) a variable using the unset command:
-
+```
+6) *Unsetting Variables*: You can unset (delete) a variable using the unset command:
+```bash
 unset variable_name
-
-###### 7. Quoting Variables: Quoting variables properly is essential to preserve spaces and special
-
-###### characters:
-
+```
+7) *Quoting Variables*: Quoting variables properly is essential to preserve spaces and special characters:
+```bash
 variable="Hello World"
 echo "Using double quotes: $variable"
 echo 'Using single quotes: $variable'
 echo Using no quotes: $variable
 echo "Using double quotes: '$variable'"
-
-###### 8. Escaping Characters: If you need to include special characters within a variable, you can
-
-###### escape them using backslashes:
-
+```
+8) *Escaping Characters*: If you need to include special characters within a variable, you can escape them using backslashes:
+```bash
 special_char="\$"
 echo "Variable: $special_char" # Output: Variable: $
+```
+Sure, let's delve into shell scripting with a focus on reading user input and input validation. Shell scripts are a series of commands that are executed in a sequence. User input allows scripts to interact with users and make decisions based on that input. Input validation ensures that the provided input meets certain criteria.
 
-###### Sure, let's delve into shell scripting with a focus on reading user input and input validation. Shell
-
-###### scripts are a series of commands that are executed in a sequence. User input allows scripts to
-
-###### interact with users and make decisions based on that input. Input validation ensures that the
-
-###### provided input meets certain criteria.
-
-
-###### Reading User Input: To read user input in a shell script, you can use the read command. It reads
-
-###### input from the user until the Enter key is pressed and assigns the input to a variable. Here's an
-
-###### example:
-
+9) *Reading User Input*: To read user input in a shell script, you can use the read command. It reads input from the user until the Enter key is pressed and assigns the input to a variable. Here's an example:
+```bash
 #!/bin/bash
 
 # Prompt the user for their name
@@ -216,31 +178,26 @@ read name
 
 # Display a greeting using the user's input
 echo "Hello, $name! Nice to meet you."
+```
+In this example, the user's input is stored in the name variable, and the script uses that input to display a greeting.
 
-###### In this example, the user's input is stored in the name variable, and the script uses that input to
-
-###### display a greeting.
-
-###### Input with Prompting: You can also use the read command with a prompt message directly,
-
-###### eliminating the need for separate echo commands:
+10) *Input with Prompting*: You can also use the read command with a prompt message directly, eliminating the need for separate echo commands:
 
 #!/bin/bash
-
+```bash
 # Read input with a prompt message
 read - p "Enter your favorite color: " color
 
 echo "Your favorite color is $color."
+```
+11) Using `read` Options: The read command has various options to customize its behavior. For example:
 
-###### Using read Options: The read command has various options to customize its behavior. For
+- `p` specifies a prompt message.
+- `r` disables interpreting backslashes, useful for reading file paths.
+- `t` sets a timeout for input.
+- `s` hides input (useful for passwords).
 
-###### example:
-
-- - p specifies a prompt message.
-- - r disables interpreting backslashes, useful for reading file paths.
-- - t sets a timeout for input.
-- - s hides input (useful for passwords).
-
+```bash
 #!/bin/bash
 
 # Read password without echoing characters
@@ -250,19 +207,14 @@ echo "Password entered."
 # Read input with timeout
 read - t 5 -p "Enter something in 5 seconds: " timed_input
 echo "You entered: $timed_input"
+```
 
-#### Conditional Statements:
+##Conditional Statements:
+Conditional statements allow your script to make decisions and execute different code paths based on certain conditions.
 
-###### Conditional statements allow your script to make decisions and execute different code paths
-
-###### based on certain conditions.
-
-###### 1. if, else, elif:
-
-###### The if statement is used to execute code block(s) conditionally. You can use else to define what
-
-###### should be done if the condition is not met, and elif to add more conditions.
-
+ _if, else, elif_:
+The if statement is used to execute code block(s) conditionally. You can use else to define what should be done if the condition is not met, and elif to add more conditions.
+```bash
 #!/bin/bash
 
 num=
@@ -270,19 +222,16 @@ num=
 if [ $num - gt 10 ]; then
 echo "Number is greater than 10"
 
-
 elif [ $num - eq 10 ]; then
 echo "Number is equal to 10"
 else
 echo "Number is less than 10"
 fi
+```
 
-#### Case Statements (Switch):
-
-###### The case statement allows you to compare a variable against multiple values and execute code
-
-###### based on the match.
-
+## Case Statements (Switch):
+The case statement allows you to compare a variable against multiple values and execute code based on the match.
+```bash
 #!/bin/bash
 
 fruit="apple"
@@ -301,40 +250,35 @@ echo "It's an orange"
 echo "Unknown fruit"
 ;;
 esac
+```
 
-#### Looping:
+## Looping:
+Looping structures help you repeat a set of commands multiple times.
 
-###### Looping structures help you repeat a set of commands multiple times.
-
-###### 1. for Loop:
-
-###### The for loop iterates over a list of items and performs the specified commands for each item.
-
+1) _for Loop_:
+The for loop iterates over a list of items and performs the specified commands for each item.
+```bash
 #!/bin/bash
 
 for color in red green blue; do
 echo "Color: $color"
 done
-
-###### 2. while Loop:
-
-###### The while loop repeatedly executes a block of code as long as a condition is true.
-
+```
+2) _while Loop_:
+The while loop repeatedly executes a block of code as long as a condition is true.
+```bash
 #!/bin/bash
 
-count=
+count=1
 
 while [ $count - le 5 ]; do
 echo "Count: $count"
 ((count++))
 done
-
-###### 3. until Loop:
-
-###### The until loop is similar to the while loop but continues executing until a condition becomes
-
-###### true.
-
+```
+3) _until Loop_:
+The until loop is similar to the while loop but continues executing until a condition becomes true.
+```bash
 #!/bin/bash
 
 
@@ -344,19 +288,12 @@ until [ $num - ge 5 ]; do
 echo "Number: $num"
 ((num++))
 done
+```
+ Sure, I'd be happy to explain shell script functions in detail, along with examples for each of the topics you mentioned.
 
-###### Sure, I'd be happy to explain shell script functions in detail, along with examples for each of the
-
-###### topics you mentioned.
-
-### Declaring and Using Functions:
-
-###### In shell scripting, functions allow you to group a series of commands together and give them a
-
-###### name, making your code more organized and modular. To declare a function, you use the
-
-###### following syntax:
-
+## Declaring and Using Functions:
+In shell scripting, functions allow you to group a series of commands together and give them a name, making your code more organized and modular. To declare a function, you use the following syntax:
+```bash
 function_name() {
 # Commands to be executed
 }
@@ -370,17 +307,12 @@ echo "Hello, how are you?"
 
 # Call the greet function
 greet
+```
+## Function Arguments and Return Values:
+Shell functions can accept arguments just like command-line scripts. You access these arguments using special variables: $1 for the first argument, $2 for the second, and so on. To access all the arguments, you use $@ or $*.
 
-### Function Arguments and Return Values:
-
-###### Shell functions can accept arguments just like command-line scripts. You access these arguments
-
-###### using special variables: $1 for the first argument, $2 for the second, and so on. To access all the
-
-###### arguments, you use $@ or $*.
-
-###### Here's an example of a function that takes two arguments and prints them:
-
+Here's an example of a function that takes two arguments and prints them:
+```bash
 # Declare a function named print_args
 print_args() {
 echo "First argument: $1"
@@ -389,20 +321,12 @@ echo "Second argument: $2"
 
 # Call the print_args function with arguments
 print_args "Hello" "World"
+```
 
-###### Shell functions can't directly return values like functions in some other programming languages.
+Shell functions can't directly return values like functions in some other programming languages. However, you can use the exit status of a function to convey success (0) or failure (non-zero). If you need to pass values back from a function, you can print them and capture the output using command substitution.
 
-###### However, you can use the exit status of a function to convey success (0) or failure (non-zero). If
-
-###### you need to pass values back from a function, you can print them and capture the output using
-
-###### command substitution.
-
-###### Here's an example of a function that calculates the sum of two numbers and returns it through
-
-###### the exit status and output:
-
-
+Here's an example of a function that calculates the sum of two numbers and returns it through the exit status and output:
+```nasj
 # Declare a function named calculate_sum
 calculate_sum() {
 local num1="$1"
@@ -415,17 +339,12 @@ return $sum
 # Call the calculate_sum function and capture the output
 result=$(calculate_sum 10 20)
 echo "Sum: $result"
+```
 
-### Scope of Variables:
+## Scope of Variables:
+Variables declared within a function have local scope, meaning they're only accessible within that function. To create local variables, use the local keyword. Variables declared outside functions have global scope and can be accessed from anywhere. Here's an example illustrating local and global variables:
 
-###### Variables declared within a function have local scope, meaning they're only accessible within that
-
-###### function. To create local variables, use the local keyword. Variables declared outside functions
-
-###### have global scope and can be accessed from anywhere.
-
-###### Here's an example illustrating local and global variables:
-
+```bash
 # Declare a global variable
 global_var="I'm global"
 
@@ -442,41 +361,28 @@ local_variables
 # Access global variable outside the function
 echo "Outside function: $global_var"
 # Attempting to access local_var here will result in an error
+```
 
-###### In the example above, the local_var is accessible only within the local_variables function,
+In the example above, the local_var is accessible only within the local_variables function, while global_var is accessible both inside and outside the function. Remember that each instance of a function call has its own set of local variables, ensuring that they don't interfere with each other.
 
-###### while global_var is accessible both inside and outside the function.
-
-###### Remember that each instance of a function call has its own set of local variables, ensuring that
-
-###### they don't interfere with each other.
-
-###### String Manipulation in Shell Scripts:
-
-###### String manipulation in shell scripting involves various operations on strings, such as
-
-###### concatenation, substring extraction, searching, and replacing. These operations are commonly
-
-###### used when working with text data in scripts. Let's explore each operation with examples:
-
-###### 1. Concatenation: Concatenation involves combining two or more strings to create a new string.
-
-###### In shell scripting, you can achieve this using variables and the concatenation operator (.).
-
+### String Manipulation in Shell Scripts:
+String manipulation in shell scripting involves various operations on strings, such as concatenation, substring extraction, searching, and replacing. These operations are commonly used when working with text data in scripts. Let's explore each operation with examples:
+1) *Concatenation*: Concatenation involves combining two or more strings to create a new string. In shell scripting, you can achieve this using variables and the concatenation operator (.).
+```bash
 #!/bin/bash
 
 string1="Hello, "
 string2="World!"
 result=$string1$string
 
-
 echo "Concatenated string: $result"
+```
 
-###### Output:
+Output:
 
-Concatenated string: Hello, World!
+*Concatenated string: Hello, World!*
 
-###### 2. Substring Extraction: You can extract a portion of a string using substrings. In shell scripting,
+2. Substring Extraction: You can extract a portion of a string using substrings. In shell scripting,
 
 ###### you use parameter expansion to achieve this.
 
