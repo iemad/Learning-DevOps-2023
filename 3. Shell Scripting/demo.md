@@ -182,9 +182,9 @@ echo "Hello, $name! Nice to meet you."
 In this example, the user's input is stored in the name variable, and the script uses that input to display a greeting.
 
 10) *Input with Prompting*: You can also use the read command with a prompt message directly, eliminating the need for separate echo commands:
-
-#!/bin/bash
 ```bash
+#!/bin/bash
+
 # Read input with a prompt message
 read - p "Enter your favorite color: " color
 
@@ -280,7 +280,6 @@ done
 The until loop is similar to the while loop but continues executing until a condition becomes true.
 ```bash
 #!/bin/bash
-
 
 num=
 
@@ -378,29 +377,21 @@ result=$string1$string
 echo "Concatenated string: $result"
 ```
 
-Output:
+- Output: `Concatenated string: Hello, World!`
 
-*Concatenated string: Hello, World!*
-
-2. Substring Extraction: You can extract a portion of a string using substrings. In shell scripting,
-
-###### you use parameter expansion to achieve this.
-
+2) *Substring Extraction*: You can extract a portion of a string using substrings. In shell scripting, you use parameter expansion to achieve this.
+```bash
 #!/bin/bash
 
 string="Hello, World!"
 substring=${string: 7 :5} # Starting from index 7, extract 5 characters
 
 echo "Substring: $substring"
+```
+- Output: `Substring: World`
 
-###### Output:
-
-Substring: World
-
-###### 3. Searching and Replacing: Searching involves finding a specific substring within a string, and
-
-###### replacing involves substituting one substring with another.
-
+3) *Searching and Replacing*: Searching involves finding a specific substring within a string, and replacing involves substituting one substring with another.
+```bash
 #!/bin/bash
 
 string="Hello, World! Hello!"
@@ -410,18 +401,15 @@ result=${string//$search/$replace} # Replace all occurrences
 
 echo "Original string: $string"
 echo "Result after replacement: $result"
+```
+- Output:
+```Original string: Hello, World! Hello!
+Result after replacement: Hi, World! Hi!```
 
-###### Output:
+You can also use parameter expansion to replace the first occurrence or perform case-insensitive replacements.
 
-Original string: Hello, World! Hello!
-Result after replacement: Hi, World! Hi!
-
-###### You can also use parameter expansion to replace the first occurrence or perform case-insensitive
-
-###### replacements.
-
-###### Here's a script that combines all three operations:
-
+Here's a script that combines all three operations:
+```bash
 #!/bin/bash
 
 string1="Hello, "
@@ -436,17 +424,16 @@ replaced=${original//$search/$replace}
 echo "Concatenated string: $concatenated"
 echo "Original string: $original"
 echo "Replaced string: $replaced"
-
-
 substring=${replaced: 0 :5}
 echo "Extracted substring: $substring"
-
-###### Output:
+```
+```Output:
 
 Concatenated string: Hello, World!
 Original string: Hello, World! Hello!
 Replaced string: Hi, World! Hi!
 Extracted substring: Hi, W
+```
 
 ###### Arrays
 
