@@ -12,9 +12,9 @@
 10) Run the command `mvn compile` and then `ls` and find there is a directory named `target`.
 11) Go to `DevOps-CICD` folder and run `mvn test`.
 12) Try `mvn clean test` [This will clean the output folder and then rerun the test cases]
-13) The try this command: `mvn clean package`. [Package is created and we can see the `target` folder here; this folder contains all the outcomes of the run commands]
-14) If we go inside that folder, we will find a .jar file which is the real application where all the dependencies are already there
-15) Go back to `DevOps-CICD` directory and run `mvn clean install`
-16) Go to the root folder and run `ls -la` and find a `.m2` folder
-17) Come back to `Devops-CICD/target` and run that application: `java -jar jar_file_inside_target_folder`
-18) Finally, get the IP of EC2 and try like this: `http://54.82.231.43:8080/`
+13) The try this command: `mvn clean package`. [Package is created and we can see the `target` folder here; this folder contains all the outcomes of the run commands] & [`mvn clean package -DskipTests=true` command helps to skip the **Test** stage]
+15) If we go inside that folder, we will find a .jar file which is the real application where all the dependencies are already there
+16) Go back to `DevOps-CICD` directory and run `mvn clean install`
+17) Go to the root folder and run `ls -la` and find a `.m2` folder
+18) Come back to `Devops-CICD/target` and run that application: `java -jar jar_file_inside_target_folder`
+19) Finally, get the IP of EC2 and try like this: `http://54.82.231.43:8080/`
