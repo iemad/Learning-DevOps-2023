@@ -229,6 +229,8 @@ In Maven, command-line arguments can be passed using the `-D` flag to set system
 11. `-Dmaven.test.failure.ignore=true`: Ignores test failures and allows the build to continue.
 
 12. `-Dmaven.javadoc.skip=true`: Skips generating Javadoc during the build.
+13. 
+14. `-DargLine=-Xmx512m -Xms256m`: Max and min value of memory the application should use.
 
 These are just a few examples of the `-D` arguments you can use with Maven. You can customize your build process by passing relevant system properties using the `-D` flag followed by the property and its value. Remember that the available properties may vary depending on the plugins and configurations used in your project. You can also refer to the official Maven documentation and the documentation of any plugins you're using for more information on available options.
 
