@@ -4,8 +4,9 @@
 3) Make a directory: `mkdir nodejs-web' and `cd` into it.
 4) Command: `npm init` and proceed ahead.
 5) ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2b065dfd-61ed-4602-86da-bacbf149e003)
-6) Install Express: `npm install express`
-7) Create a file like this: `vi app.js` and include the following things:
+6) `ls`, a file named `package.json` is created.
+7) Install Express: `npm install express`; now `node_modules` folder and `package-lock.json` is created.
+8) Create a file like this: `vi app.js` and include the following things:
 ```// app.js
 const express = require('express');
 const app = express();
