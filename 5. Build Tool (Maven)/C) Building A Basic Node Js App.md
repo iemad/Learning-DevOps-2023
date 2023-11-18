@@ -1,5 +1,4 @@
-## Part - 1) Basic Node JS Application Deployment with Maven
-
+## Part - 1) A Very Basic Node JS Application Deployment with Maven:
 1) Update the Ubuntu VM
 2) Install: node, npm
 3) Make a directory: `mkdir nodejs-web' and `cd` into it.
@@ -38,3 +37,11 @@ app.listen(PORT, () => {
     Instead of that line, we can put: `"test": "node app.js"`, then we can run the application by `npm start`
 
 
+## Part - 2) A Basic Node JS Application Deployment with Maven:
+1) In the same folder, make two new HTML files `index.html` and `about.html` [from here](https://github.com/iemad/Basic_NodeJS_WebApp_Public)
+2) Change app.js following the link given in step 1. Now application is listening on port 8081 as stated in the app.js file.
+
+
+## Part - 3) Add Docker Functionality to it:
+1) In the same folder, make two new HTML files `index.html` and `about.html` [from here](https://github.com/iemad/Basic_NodeJS_WebApp_Public)
+2) Change app.js following the link given in step 1. Now application is listening on port 8081 as stated in the app.js file.
