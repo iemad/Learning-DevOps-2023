@@ -1,4 +1,4 @@
-##Basic Node JS Application Deployment with Maven##
+## Part - 1) Basic Node JS Application Deployment with Maven
 
 1) Update the Ubuntu VM
 2) Install: node, npm
