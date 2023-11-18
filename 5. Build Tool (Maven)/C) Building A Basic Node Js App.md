@@ -1,3 +1,4 @@
+##Basic Node JS Application Deployment with Maven##
 
 1) Update the Ubuntu VM
 2) Install: node, npm
@@ -32,6 +33,8 @@ app.listen(PORT, () => {
 ```
 8) Start the app: `node app.js`
 9) Check it in the browser: `ip_address:3000`
+10) If we would like to get something like `npm start` to get our application started then we can do something like this:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/738dbc93-31eb-4134-b6dc-3295b44d2d50)
+    Instead of that line, we can put: `"test": "node app.js"`, then we can run the application by `npm start`
 
 
-**Unfinished. To be continued**
