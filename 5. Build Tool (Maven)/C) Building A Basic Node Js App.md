@@ -42,7 +42,7 @@ app.listen(PORT, () => {
 2) Change app.js following the link given in step 1. Now application is listening on port 8081 as stated in the app.js file.
 
 
-## Part - 3) Add Docker Functionality to it:
+## Part - 3) Run he Application from a Docker Image:
 1) Let's try to understand how Docker will play the role here:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9c89388e-e25f-4536-a0c9-dd322e58e090)
 
