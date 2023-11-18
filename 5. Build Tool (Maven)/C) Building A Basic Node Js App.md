@@ -43,5 +43,53 @@ app.listen(PORT, () => {
 
 
 ## Part - 3) Add Docker Functionality to it:
-1) In the same folder, make two new HTML files `index.html` and `about.html` [from here](https://github.com/iemad/Basic_NodeJS_WebApp_Public)
-2) Change app.js following the link given in step 1. Now application is listening on port 8081 as stated in the app.js file.
+1) Let's try to understand how Docker will play the role here:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9c89388e-e25f-4536-a0c9-dd322e58e090)
+
+   - FROM node:alpine </br>
+     This is the base image
+   - COPY ./ ./ </br>
+     Copying everything from project folder to the container
+   - RUN npm install
+     This will get necessary things from package.json file
+   - EXPOSE 8081
+     8081 will be opened in the container
+
+2) Create a Dockerfile and paste the contents from the above repo.
+3) Now get the Docker installed: `sudo apt install docker.ip -y`
+4) Make sure that the user 'ubuntu' gets access to Docker commands: `sudo usermod -aG docker ubuntu`
+5) Logout and login: `newgrp docker`
+6) Build the image: `docker build -t node-webapp:latest .`
+7) Check the docker image: `docker images`
+8) Run it: `docker run -d --name node-app-from-container -p 8088:8081 node-webapp:latest`
+9) Check the container: `docker ps`
+10) Check the application now: `IP:8088`
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
