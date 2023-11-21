@@ -39,7 +39,7 @@ sudo systemctl status jenkins
 
 
 ## Playing with Jenkins Jobs:
-5) Freestyle Project:
+A Freestyle Project:
    - We should click on 'Discard old builds' and keep it at max 3 latest builds.
    - Select a JDK from the option. For now, jdk11.
    - Source code management:
