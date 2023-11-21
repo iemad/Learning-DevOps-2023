@@ -77,6 +77,24 @@ Go and create a Pipeline Project:
       - Click 'reply' from the left sidebar.
 
 
+## Trying the Technique - Adding a Jenkins Pipeline File in the Source Code AKA Pipeline-As-Code:
+- Copy the pipeline code and make a file named **Jenkinsfile** in the GitHub repo's root folder.
+  - For one more version of the Jenkinsfile:
+    - Add a new Jenkins file in the repo with a different name like 'Jenkins123' and point it to the Jenkins pipeline configuration.
+- Configure the pipeline in the Jenkins:
+  ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/60e18d61-1ede-4134-a821-d3a2c722a5e9)
+- Now feel free to build, we are done.
+- Incase:
+  - If we don't have access to check our Jenkins file in the source code this is the way:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/32e33641-b080-48f8-b7cb-587499935277)
+- If there is one more branch in the GitHub repo:
+
+
+
+## Multibranch Pipeline-As-Code:
+- Assume that in some branches there is Jenkinsfile (at least the name of the file starts with Jenkinsfile, something like Jenkinsfile123, Jenkinsfile321, etc), and in some branches that file is missing.
+- If Jenkinsfile exists in the root then only that branch will go to the pipeline.
+
 
     
 
