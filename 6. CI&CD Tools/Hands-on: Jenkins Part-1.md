@@ -50,7 +50,10 @@ A Freestyle Project:
        - Build Steps:
            - 'Invoke top-level Maven targets' as we are building a Java app.
            - Select 'maven3' as the version.
-           - Goal: 'compile'
+           - Goal: 'compile' (Later we can run other commands like 'clean', 'build', etc.)
            - Click 'Apply' and then 'Build-now'. Now there will be a progress bar.
+           - If we would like to add another build step:
+                - Click 'Add build step':
+                - Select 'Execute Shell' and add 'echo Hello' in the command space.
          
 
