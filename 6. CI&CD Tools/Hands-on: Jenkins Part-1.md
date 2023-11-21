@@ -38,7 +38,7 @@ sudo systemctl status jenkins
 11) Click 'Apply' and close the page.
 
 
-## Playing with Jenkins Freestyle Job:
+## Playing with the Jenkins Freestyle Job:
 Go and create a Freestyle Project:
    - We should click on 'Discard old builds' and keep it at max 3 latest builds.
    - Select a JDK from the option. For now, jdk11.
@@ -56,4 +56,28 @@ Go and create a Freestyle Project:
                 - Click 'Add build step':
                 - Select 'Execute Shell' and add 'echo Hello' in the command space.
          
+
+## Playing with the Jenkins Pipeline Job:
+Go and create a Pipeline Project:
+- Select 'Discard old builds' and keep it at max 3.
+- Go to the Pipeline row:
+  - Select a template like 'Hello World'.
+  - Start writing the stages:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/40879b5f-84a1-495f-9ffb-837084fb1da5)
+  - Proceed ahead with the Git option:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f1c3ea24-9cc6-490c-bef1-edf946abe1ee)
+  - Then the next stages:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9a795d12-1211-4cc7-9c98-1db64a76bb62)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/dcb9c942-01a9-4ab1-8204-ab1bdcc10a52)
+  - Now we can run the build process.
+  - If we would like to do this process in another Maven or JDK version then:
+    - Define Maven and JDK like this:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d28c8e2e-94fa-4474-a229-140150466bbd)
+    - To run the previous build:
+      - Click 'reply' from the left sidebar.
+
+
+
+    
+
 
