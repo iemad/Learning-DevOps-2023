@@ -27,14 +27,13 @@
        and click on Save.
      - Agent is now online, named as 'slave' here:
        ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/18b573ca-e5e1-4c38-985a-a894f3b29ef7)
+8) Add a Docker container as a Jenkins agent:
+   - This is how Docker needs to be mentioned in the Jenkins file.
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3184d450-c14e-4fc4-a6d4-35bf26110b63)
+   - Install plugins: Docker Pipeline and Docker plugin.
+   - Go to the configuration of the pipeline
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c378d242-38dd-447a-a5dc-845d8b23dcc4)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/14bdf49b-58c0-4f39-9b33-0c8d2a6661d5)
+
+
      
-
-
-       
-
-
-
-
-     - 
-
-
