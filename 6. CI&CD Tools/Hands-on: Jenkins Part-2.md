@@ -69,6 +69,28 @@
    - Run the job:
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/891d8e3e-6c8c-49f4-ab70-63b354a9702d)
    - Test: Make a small change in that targeted branch and see if there is any job triggered or not.
+10) Email Notification in Jenkins:
+    - Install the plugin: 'Email Extension Template'.
+    - Keep SMTPS open:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c8f13a9a-a9a1-4a50-8e90-1bb86e939d5f)
+    - Fix settings in Jenkins:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/af0c9509-28dd-46f1-a40e-c860670997b7)
+    - Go to Gmail and fix this, go for 'other option' and give it a name:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9b7c3f8e-3309-46c3-b9fa-bc242acb2244)
+    - Come back to Jenkins and this:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6297b73b-676b-4d13-8143-750a92c5756f)
+    - Test the configuration:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5e037793-db7d-4c3b-9bec-52ed1eb472d7)
+    - Fix some other options:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3b84a396-efcf-47ab-be7e-8751c58aa27d)
+
+    
+
+
+
+
+
+    
 
 
 
