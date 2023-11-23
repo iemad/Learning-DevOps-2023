@@ -14,5 +14,27 @@
      - Update the Ubuntu and then install java
      - Make folder 'agent', change the permission to 755
      - Generate SSH key when in the /home/ubuntu location and the key is created in /root/.ssh directory.
+     - Add public key to authorised key:
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7a859532-ada4-4bfa-9ee6-c5bc70d39d43)
+     - Go to Node and Clouds and click 'New Node'
+     - Add /home/ubuntu/agent to the Remote root directory, builds will be in this folder.
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/cde9affe-d849-4db0-bbba-314d7cc79f43)
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e09510c9-2ff3-4ac9-9db6-175d9b4eae02)
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d164588a-c882-4e91-801c-7f0024ec7bf9)
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/712b36b6-c353-40a3-83a7-bf42d3a5f55f)
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/df0ddf69-26f1-4fe0-9669-d8549e1252ad)
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d1d995a3-4560-4a78-b3b2-41268b678398)
+       and click on Save.
+     - Agent is now online, named as 'slave' here:
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/18b573ca-e5e1-4c38-985a-a894f3b29ef7)
+     
+
+
+       
+
+
+
+
      - 
+
 
