@@ -34,6 +34,32 @@
    - Go to the configuration of the pipeline
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c378d242-38dd-447a-a5dc-845d8b23dcc4)
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/14bdf49b-58c0-4f39-9b33-0c8d2a6661d5)
+   - Edit the pipeline script:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/886347d5-82a1-4bb4-80d2-c73e2d4a9011)
+9) Exploring webhooks:
+   - For instance, if someone pushes to a specific branch only then the pipeline will be triggered.
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5eb5ef1a-b747-4fe7-8818-76bff1fc5684)
+   - Install a plugin named 'Generic Webhook Trigger'
+   - Create a pipeline
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9f2a72e7-9cb9-4176-9337-d9a855f24592)
+   - In the 'Build Triggers' of the pipeline configuration section, click 'Generic Webhook Trigger'.
+   - For 'Post content parameters':
+     - Generate a token from GitHub:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b20796a8-3873-42f1-98d3-9f2e3b215970)
+     - Do it like this:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e208452f-0799-4d5a-9b2d-1df68b7501b9)
+   
+   
+
+     
+
+   
+
+
+    
+     
+
+     
 
 
      
