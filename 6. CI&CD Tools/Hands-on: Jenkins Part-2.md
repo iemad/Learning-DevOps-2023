@@ -48,6 +48,43 @@
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b20796a8-3873-42f1-98d3-9f2e3b215970)
      - Do it like this:
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e208452f-0799-4d5a-9b2d-1df68b7501b9)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ca947752-c9b2-4447-9768-7d26bd146b89)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8481aeac-0730-4f1a-9f00-57d5009d7284)
+   - Prepare a link:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8087e8cc-ee93-44b8-bf96-57d188b8b626)
+   - Copy this link somewhere:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c3cc0b31-b19b-4174-8fd7-e5e8f7f51f9d)
+   - Then the pipeline script:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/956a298e-31ac-494b-97c7-abdba9811e22)
+     - Generate it:
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d11b2a9c-3d5d-446c-a0f5-0fe93cb1dd37)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/39144205-fc0c-4aba-8649-4fd018a062c7)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/395a991a-1f7b-4027-88a1-d267c3590985)
+     Add this tools section too:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/661e9a3c-e871-46f0-bc2f-59f087c24831)
+   - Go to the repo:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a5d49886-4fdd-42ce-a51f-4e624b81743d)
+     Create a new webhook:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e685c54c-79cb-4d59-9aa9-5d94b4de8e65)
+   - Run the job:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/891d8e3e-6c8c-49f4-ab70-63b354a9702d)
+   - Test: Make a small change in that targeted branch and see if there is any job triggered or not.
+
+
+
+
+
+
+
+   
+
+   
+
+
+     
+
+
+
    
    
 
