@@ -83,6 +83,24 @@
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5e037793-db7d-4c3b-9bec-52ed1eb472d7)
     - Fix some other options:
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3b84a396-efcf-47ab-be7e-8751c58aa27d)
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d0ca21a1-1d1f-4d67-9c61-93c300c34d90)
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/1b3bc8c6-be6f-48af-8a19-3b9e3c0ec385)
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9214acd7-a9e6-49cc-8a68-bc1734a1b715)
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c21e3b6f-0469-478b-8443-f8f6c31cbc62)
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/18f2a780-cff7-44b1-966f-11f2c32f8d88)
+      Select some triggers:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3d88a2b5-d21b-4b94-9c6b-342b4df1fa36)
+    - Go back to the webhook job's configuration and add a step:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b8864e42-4cea-405d-8efc-5a6ed0a262f1)
+      Should be outside the stages:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8a04f2b9-72db-4657-b27e-aa0b5cc17301)
+
+
+
+
+
+
+
 
     
 
