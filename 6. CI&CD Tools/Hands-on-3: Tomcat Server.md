@@ -12,3 +12,5 @@
    And now build it.
 5) Download and install Tomcat:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a9f3eff2-a697-43ea-a49c-b3b4e8b37ff0)
+   To proceed ahead, follow this link: [https://github.com/iemad/Learning-DevOps-2023/blob/main/6.%20CI%26CD%20Tools/Notes%3A%202)%20Intro%20to%20Tomcat.md]
+   
