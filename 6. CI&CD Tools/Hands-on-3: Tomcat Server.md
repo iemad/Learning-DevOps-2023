@@ -21,9 +21,10 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ea99937a-a6ba-4f99-8e4d-cd12dd81386a)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/1391f8e2-ec67-4649-b0d1-c204000f84a2)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f69678a8-16e3-4f0a-8f74-698a11a4b302)
-   
-
-
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9ca58a9a-d8b9-49e7-b203-e7c4118bfc16)
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c83561d2-7730-43e4-961a-693584fad47a)
+   Check the app now:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/03108a9e-7d16-4393-9938-0445aa73f2ed)
 
    Code is given here: [https://github.com/iemad/Learning-DevOps-2023/blob/main/6.%20CI%26CD%20Tools/Notes%3A%202)%20Intro%20to%20Tomcat.md]
    
