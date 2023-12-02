@@ -24,15 +24,19 @@
 2) Go to GitLab and add a project runner from the left sidebar's CI/CD option.
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6699b827-c400-40c5-b577-cd72bce232dd)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a83229e3-681a-447c-8fd7-f8d89750ad38)
-3) Go to the VM and copy the Step 1 code.
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b013f094-c3a6-4808-a0de-bbe098999c8a)
+4) Go to the VM and copy the Step 1 code.
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5754118c-72cd-4ec6-b32f-c164b9db930b)
-4) Create a new folder, move to that, and run the command after installing gitlab-runner:
+5) Create a new folder, move to that, and run the command after installing gitlab-runner:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4d21d046-50b9-41fb-9531-72f9f75b3765)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/bfcdff04-298d-47da-8a99-875e7216fe89)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7f16c657-f007-4b61-8aaa-74d058595162)
-5) The runner is attached to the GitLab, refresh the page:
+6) The runner is attached to the GitLab, refresh the page:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ff39e90c-980c-47e9-988e-17f2728efdb2)
-6) 
+7) Specify runner in GitLab's Pipeline code, add this to all steps:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/acfe95e9-8f0e-47e6-8e5b-745634e33a04)
+
+   
 
 
 
