@@ -28,10 +28,3 @@
 6) In the workflow choose 'Jave with maven' and edit the YML file.
    - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a8329034-fc03-4df2-8db3-ab821e230322)
 
-   
-
-   
-
-
-
-
