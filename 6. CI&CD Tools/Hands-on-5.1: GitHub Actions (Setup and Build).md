@@ -19,7 +19,7 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7d1dc425-1b36-449a-bdf4-dc0ba82a60fa)
 2) Go to the Runners option and create a new self-hoster runner:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/53d7e02d-d27c-4d85-b85e-491e21ec102d)
-3) Prepare an EC2 instance in AWS, get into it, and update it.
+3) Prepare an EC2 instance in AWS, get into it, update it, and also install Maven.
 4) The follow these:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b8c12957-d6ff-4b99-88fd-c8d6ca930af5)
    - Do this part carefully:
@@ -27,4 +27,9 @@
 5) Go to the repo's root, change the branch to 'develop', and go to the Actions tab.
 6) In the workflow choose 'Jave with maven' and edit the YML file.
    - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a8329034-fc03-4df2-8db3-ab821e230322)
+   - A workflow should now be triggered.
+7) Check the VM and run the app:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/fb1c03f9-1727-419d-ac0d-d65a3533cccf)
+
+   
 
