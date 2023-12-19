@@ -1,4 +1,4 @@
-![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ba80940e-319b-41e7-9317-1fe0d6ae5e8e)1) Install Jenkins in a VM.
+1) Install Jenkins in a VM.
 2) Then install Docker, get the proper image for that, and run it in the backend:![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a3581023-6be6-4b0d-86fc-96fbbb4673e0)
 3) Install two plugins in the Jenkins: Eclipse Temurin installer, and SonarQube Scanner.
 4) Get the SonarQube here: IP:9000/. User ID and Password are: 'admin'. 
@@ -10,8 +10,6 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/72cce662-4e01-483a-b4f4-234f774b341c)
    Then, Maven:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5a82a07e-3d9a-4a6e-9fd1-e51114d5c5bd)
-7) 
-
-
-
-   
+7) Get credentials (generate token) from SonarQube:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ff3cf558-4f9a-4939-8b40-a8ca222bce67)
+8) Go to Jenkin's Credentials section and 
