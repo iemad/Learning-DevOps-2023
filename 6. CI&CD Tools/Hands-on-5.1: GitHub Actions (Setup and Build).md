@@ -1,4 +1,4 @@
-## Regular way:
+## A) Regular way:
 
 1) Go to the Actions tab and get this YML file configured:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a899bd46-d44e-4fb3-b0f6-f69253f1ad05)
@@ -13,7 +13,7 @@
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/670bde6d-3c9b-47ae-9d20-11d34294ce1d)
    
 
-## Doing the job in a Runner (external VM):
+## B) Doing the job in a Runner (external VM):
 
 1) Create a new branch named 'develop' for the repo and remove the YML file from there:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7d1dc425-1b36-449a-bdf4-dc0ba82a60fa)
