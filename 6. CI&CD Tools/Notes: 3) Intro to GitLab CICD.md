@@ -51,7 +51,7 @@ GitLab provides a robust platform for automating the build, testing, and deploym
    Consider using versioning and tagging in your repository to keep track of different releases. This can be useful when deploying specific versions of your application.
 
 
-# Adding a self hosted Runner
+# Adding a self-hosted Runner
 
 Adding a self-hosted runner to GitLab allows you to execute CI/CD jobs on your own infrastructure, providing more control over the environment and resources. Here's how you can set up a self-hosted runner in GitLab:
 
