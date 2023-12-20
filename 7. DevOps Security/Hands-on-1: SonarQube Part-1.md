@@ -35,7 +35,7 @@
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9bbb0d9a-a154-4836-8563-6dde88bafcbe)
     - Now if we run the pipeline, we can see a result in the SonarQube portal.
 11) Installing external SonarQube Plugins by going inside the Docker container and then restart it:
-    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/03578f16-609f-4434-a286-3eb11d823fd2) 
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/03578f16-609f-4434-a286-3eb11d823fd2)
 
 
 
