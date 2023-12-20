@@ -25,6 +25,17 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3c003e61-bcbe-49a8-b283-1162a8b0d3fc)
     - Add arguments: It tells the project name in SonarQube, where the Java binary files are, and what the project key will be.
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b137bb85-59f1-4b76-b902-1d6938231b6d)
+    - Make sure that pom.xml file has this part (properties):
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4c9dd74c-863a-4c6a-a197-bd9b8faaf074)
+    - Add this plugin section too:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4c94bc1e-6b7e-4f43-88ef-8af8130d5a9d)
+    - And also the dependency section:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7c521249-5c79-4238-98c1-130b20ed6499)
+    - Now if we run the pipeline, we can see a result in the SonarQube portal.
+   
+
+
+
 
     
     
