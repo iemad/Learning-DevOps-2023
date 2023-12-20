@@ -21,6 +21,15 @@
     Now fix the SonarQube part:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/fc5d74ae-5685-47ef-94f5-42bc29dbf9d8)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ee336be2-5361-4d93-acab-f9bb106d02d1)
+    Calling SonarQube Scanner tool:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3c003e61-bcbe-49a8-b283-1162a8b0d3fc)
+    Add arguments: It tells the project name in SonarQube, where the Java binary files are, and what the project key will be.
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b137bb85-59f1-4b76-b902-1d6938231b6d)
+
+    
+    
+
+    
 
 
     
