@@ -12,4 +12,17 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5a82a07e-3d9a-4a6e-9fd1-e51114d5c5bd)
 7) Get credentials (generate token) from SonarQube:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ff3cf558-4f9a-4939-8b40-a8ca222bce67)
-8) Go to Jenkin's Credentials section and 
+8) Go to Jenkin's Credentials section and add it as a secret text.
+9) Go to Jenkin's System section and set up the SonarQube part:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4a3c17ff-f8d2-4d1f-bc7a-9811e0dbd025)
+10) Now it is time to complete the pipeline.
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/81222ca0-b279-43c3-b03d-8268fe7ddd38)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/eb4e7f52-d69b-4459-b3c0-b23f0bc286c1)
+
+    For this part:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/447afec2-4e3a-4fa4-aba3-7da03620cfca)
+    
+
+
+
+
