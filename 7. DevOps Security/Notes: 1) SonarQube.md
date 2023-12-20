@@ -110,7 +110,7 @@ Certainly! Here's a step-by-step guide on how to install Docker and set up Sonar
 
 # Sonar Analysis Using Jenkins
 
---> After You setup Sonarqube then next install plugin **sonar scanner** plugin in jenkins and configure it in Jenkins Global Tool Configuration
+--> After You setup Sonarqube then next install plugin **_sonar scanner_** plugin in jenkins and configure it in Jenkins Global Tool Configuration
 --> Next Go to Configure System ans configure sonarqube server with soarqube token as credentails --> for generating token, go to sonarqube >> Administration >> security >> Users and then u will see an option of token.
 --> create a pipeline as below.
 
