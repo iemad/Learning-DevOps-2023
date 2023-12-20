@@ -210,14 +210,12 @@ pipeline {
             }
         }
 
-
         stage('Package') {
             steps {
                 sh "mvn clean package"
             }
         }
        
-
         stage('Sonar Analysis') {
             steps {
                 withSonarQubeEnv('sonar') {
