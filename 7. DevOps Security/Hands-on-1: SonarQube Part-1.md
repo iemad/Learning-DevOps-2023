@@ -18,9 +18,11 @@
 10) Now it is time to complete the pipeline.
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/81222ca0-b279-43c3-b03d-8268fe7ddd38)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/eb4e7f52-d69b-4459-b3c0-b23f0bc286c1)
+    Now fix the SonarQube part:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/fc5d74ae-5685-47ef-94f5-42bc29dbf9d8)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ee336be2-5361-4d93-acab-f9bb106d02d1)
 
-    For this part:
-    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/447afec2-4e3a-4fa4-aba3-7da03620cfca)
+
     
 
 
