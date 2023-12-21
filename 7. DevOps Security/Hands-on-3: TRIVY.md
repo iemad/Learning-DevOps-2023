@@ -7,5 +7,8 @@
 6) Now let's scan a Docker image.
    - Check the main notes of TRIVY.
    - The way to generate a JSON report: ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3468eaf2-6172-4a73-85d8-e16ff79a79aa)
-
+  
+7) Let's take this file system scanning and Docker image scanning to a Jenkins pipeline:
+  - Set up a VM and install Jenkins and Trivy there.
+  - START FROM 22:55
    
