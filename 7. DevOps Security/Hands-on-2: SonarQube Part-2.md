@@ -8,7 +8,7 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6236617f-83da-49e2-9101-bd63ab9a5c2c)
 4) Go to the pipeline and add this small piece of code:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8f149565-253a-486c-bcfb-0f259812bc45)
-   Though in the documentation, there is a bigger part:
+   However, in the documentation, there is a bigger part:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/18f6a7d6-a96a-43c1-ad28-2f4c58b2c434)
 
 
