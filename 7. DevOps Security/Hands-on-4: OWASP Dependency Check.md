@@ -11,6 +11,19 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3d270fb5-3f2d-491d-8b98-e1307c67eea7)
    Add this part to the pipeline (it is mentioned in the Notes of this part **7. DevOps Security**
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a0a5d5a0-fa71-4676-aa16-a09857e6376b)
+   Now run the pipeline.
+
+---------------
+
+## Let's try the latest version on the local machine:
+1) Fetch it at first:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5361280e-71f7-487f-ba85-21850c264349)
+2) Unzip it:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9cf1c7ea-3bf9-402d-afcc-bb03d4bb1f47)
+3) Do these steps:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/febe8b7e-167f-4447-8b6f-9c60f299e8e1)
+
+
 
 
 
