@@ -9,5 +9,8 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/11b347ec-4fba-48a2-b71b-49d096b67369)
    Go to Pipeline Syntax and search for this [--scan ./** is going to scan everything]:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3d270fb5-3f2d-491d-8b98-e1307c67eea7)
+   Add this part to the pipeline (it is mentioned in the Notes of this part **7. DevOps Security**
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a0a5d5a0-fa71-4676-aa16-a09857e6376b)
+
 
 
