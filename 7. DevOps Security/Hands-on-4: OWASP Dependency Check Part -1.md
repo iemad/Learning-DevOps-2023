@@ -1,5 +1,7 @@
 (This one comes from the video of Batch 1)
 
+# Do it locally: 
+
 1) Set up a Linux VM and update it.
 2) Install Maven since the Repo we are going to work on requires this.
    `apt install maven -y`
@@ -18,7 +20,10 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3f4dcefd-bc19-4ab8-858c-9f3d3f1305f6)
 9) A report is generated here:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d23bc263-4b5c-46f3-af88-f196fcd92a6f)
-10) 
-   
 
+   
+----------
+
+# Do it in Jenkins:
+1) 
    
