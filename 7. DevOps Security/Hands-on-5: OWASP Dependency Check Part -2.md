@@ -22,6 +22,7 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9cf1c7ea-3bf9-402d-afcc-bb03d4bb1f47)
 3) Do these steps:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/febe8b7e-167f-4447-8b6f-9c60f299e8e1)
+4) The HTML page is almost not readable here. So better we do it in the Jenkins.
 
 
 
