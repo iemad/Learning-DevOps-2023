@@ -4,4 +4,6 @@
 4) Now run Trivy on the file system: `trivy fs /home/ubuntu/Shopping-Cart`
    We can do customization too:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a2ed70ba-76fc-48a2-b64d-ba8da0bf52df)
-5) 
+6) Let's generate a report:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0a087d24-ecdf-4e8c-906e-a2535e029589)
+7) 
