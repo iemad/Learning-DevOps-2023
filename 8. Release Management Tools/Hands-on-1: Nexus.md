@@ -1,3 +1,4 @@
+# Setting Up the Nexus
 1) Installing Nexus in Ubuntu:
    Go to /opt directory" `cd /opt`
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2500b849-4d5a-4a35-937c-2c513917ca4a)
