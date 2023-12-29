@@ -14,6 +14,6 @@
 6) Let's start the application but install JDK 8 first.
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5108a355-b9ca-4b76-9a39-8f6453c0e17f)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/61501998-fb34-4ad9-a9ba-96b4bde9f4e1)
-
-
-   
+7) Go to the URL: IP.address:8081
+8) Find the password here:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/96eb7749-24aa-4421-a489-6a84db1c8b50)
