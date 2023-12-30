@@ -37,7 +37,12 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5a0ab0dd-31da-4bd7-be8e-e6b480406a0e)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8c154103-400e-4ad0-8366-696408d1edcf)
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0f898d6d-a8a3-498e-8439-27aa202d91d7)
-
-
-
-
+5) Good to remember:
+   - If SNAPSHOT is mentioned in the POM file then a production version of the software in zar format will be uploaded to the Nexus.
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2d4c1122-6d21-412f-9a1c-aa63994670cf)
+     Then trigger a new build in Jenkins.
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/589a0dae-a814-4886-9376-5bbf45cdb8b4)
+   - If we remove that word then we will find this:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a610f099-2f3e-4a42-9b41-35a367c292ce)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a00247c5-df7c-4527-9102-f1072253d145)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/48c51be4-3e29-426b-9da8-3aae7a0b616e)
