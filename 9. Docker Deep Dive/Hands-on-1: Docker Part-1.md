@@ -29,7 +29,21 @@
 14) Now we can check the running container, run the command" `docker ps`
 15) To see all the containers (where they are being run or stopped): `docker ps -a`
 16) No let's check the application in the browser: IP:8080
-17) We can now
-   
+17) Now let's push our image to the DockerHub:
+    - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/017e9f1e-dfcc-4ee7-be03-0437b49b3762)
+    - Log in:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f8836674-acaf-4aee-b57d-9cf95d845325)
+    - Push it:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4fb6b7e9-7c03-4ec6-857e-6f493404fd55)
+
+
 # Step 2: Pulling a Docker image and testing it in another VM
 1) Just install Docker first after updating the Ubuntu and then change the permission group: `sudo apt install docker.io -y` and then `sudo usermod -aG docker ubuntu`
+2) Log out and log in now with this command: `newgrp docker`
+3) Now pull the image:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ee0d0430-067f-4c25-b729-65e4dfd4222a)
+4) Run a container from it:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a8c9a477-290c-4c10-b12b-44d7e4131658)
+5) 
+
+   
