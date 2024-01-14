@@ -13,16 +13,23 @@
 7) We need to change the permission:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a2f5c257-cc2c-4a95-aae6-bc89bfe8b41e)
 8) Log out and log in now with this command: `newgrp docker`
-9) We can now download any image (good to notice that the image will be downloaded to the default directory dedicated for Docker):
+9) We can now download any image (good to notice that the image will be downloaded to the default directory dedicated to Docker):
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a3c6d2a2-7892-418e-ab60-aee5b9360858)
 10) Now create a Dockerfile in the directory where we are now:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3d89fb90-1ac6-469f-ac74-38b943f7ea93)
     Here in the 4th line, Docker is going to copy all jar files from the **target** folder of the current directory to the Docker's $APP_HOME/app.jar (app.jar is the new name of that application) which is inside a container.
 11) Let's build the Docker image using the Dockerfile that we have created:
-    Here the . at the end of the command means where the Dockerfile is located. 
+    Here the. at the end of the command means where the Dockerfile is located. 
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/340601e0-e895-40a0-ab28-4e9b90ea4d19)
 12) Let's check the images we have:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/374c5cf3-9c36-41cf-a2eb-7a0f7c8cd797)
-13) 
-
+13) Now let's run a container from our newly created image:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0aaaf432-097c-4832-ab4c-bbacbef46bc7)
+    The first port is the host port and the second one is the host port.
+14) Now we can check the running container, run the command" `docker ps`
+15) To see all the containers (where they are being run or stopped): `docker ps -a`
+16) No let's check the application in the browser: IP:8080
+17) We can now
    
+# Step 2: Pulling a Docker image and testing it in another VM
+1) 
