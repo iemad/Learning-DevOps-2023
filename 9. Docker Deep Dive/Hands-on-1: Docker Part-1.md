@@ -44,6 +44,10 @@
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ee0d0430-067f-4c25-b729-65e4dfd4222a)
 4) Run a container from it:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a8c9a477-290c-4c10-b12b-44d7e4131658)
-5) 
+
+
+# Step 3: Some extra things:
+1) How to go inside an active container:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b54f0175-864b-4ec6-96fa-00aa70832d02)
 
    
