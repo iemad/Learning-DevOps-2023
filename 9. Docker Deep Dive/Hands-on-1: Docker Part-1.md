@@ -32,4 +32,4 @@
 17) We can now
    
 # Step 2: Pulling a Docker image and testing it in another VM
-1) 
+1) Just install Docker first after updating the Ubuntu and then change the permission group: `sudo apt install docker.io -y` and then `sudo usermod -aG docker ubuntu`
