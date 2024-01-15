@@ -49,5 +49,3 @@
 # Step 3: Some extra things:
 1) How to go inside an active container:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b54f0175-864b-4ec6-96fa-00aa70832d02)
-
-   
