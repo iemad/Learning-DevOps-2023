@@ -56,7 +56,15 @@
        - Name: docker
        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e0321fc8-2645-4ee3-9730-ec872731a68a)
        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6589aa14-a9d0-403f-9ccb-740f1512f49b)
-       - Alternative: [image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7c6b23c-ec74-4615-b12e-d629b636869d) 
+       - Alternative: [image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7c6b23c-ec74-4615-b12e-d629b636869d)
+     - SonarQube servers:
+       - Go to SonarQube in the browser:
+         - Click Administration on menu > Security > Users
+         - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/139851b2-a4c2-4f51-ac09-a099bc070a9d)
+         - Go to Credentials in the Jenkins:
+           - Go to Global
+           - Add credentials
+             ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6bd871b3-d447-467d-8a46-4ddf1a9bedeb)
    - Create the Pipeline:
      - Name: Full-stack-CICD
      - And click Pipeline
