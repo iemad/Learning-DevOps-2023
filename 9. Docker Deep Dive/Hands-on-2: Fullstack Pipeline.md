@@ -59,12 +59,16 @@
        - Alternative: [image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7c6b23c-ec74-4615-b12e-d629b636869d)
      - SonarQube servers:
        - Go to SonarQube in the browser:
-         - Click Administration on menu > Security > Users
+         - Click Administration on the menu > Security > Users
          - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/139851b2-a4c2-4f51-ac09-a099bc070a9d)
          - Go to Credentials in the Jenkins:
            - Go to Global
-           - Add credentials
+           - Add the token:
              ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6bd871b3-d447-467d-8a46-4ddf1a9bedeb)
+   - Go to System of the Jenkins (We are now going to fix where the .jar file should go:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e4130838-1724-4894-b0c3-6e6ce81d4190)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9d9b07e8-2859-4781-932f-51ef51bbfb7a)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9a7141f0-4138-4f08-99a8-c6f0964ab01d)
    - Create the Pipeline:
      - Name: Full-stack-CICD
      - And click Pipeline
@@ -73,6 +77,22 @@
        ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2c37842c-82de-4dc9-b370-c20cb088a714)
      - Here is the pipeline: Give the lIIIIIIIIIIIIIIIIIIIIIIIIIIIInk here.
      - ** OWASP is better than Trivy for checking vulnerabilities in dependencies and libraries. Trivy is better than OWASP for scanning Docker images.
+     - For Quality Gate stage:
+       - Go to SonarQube via browser: Administration > Configuration > Webhooks > Create
+         Here the URL is Jenkin's URL.
+         ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c95f6beb-d7e6-47ed-b917-e336f95377fb)
+       - Now we can add this stage in the Pipeline syntax. 
+   - Go to Manage Jenkins and go to Managed files.
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/349810ed-9371-4907-b2fb-5e37756dd50b)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d947e1d2-d16c-42d3-b83b-1d26c447173e)
+2) Fix POM File:
+   - Grab these URLs:
+     ![297521911-6b5ac7c5-1c22-4be6-a71c-a84cf7de28a7](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c88456df-2630-42f0-9578-66aa7d107e6a)
+   - Replace this part in the POM file
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/186040a3-e078-432b-8e0c-1da6e715bde7)
+
+
+   
         
 
 
