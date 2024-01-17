@@ -23,12 +23,12 @@
        - Pass:
          - run: `docker ps`
          - Go inside the container:
-           `docker exec -it container_id /bin/bash`
-           `ls`
-           `cd sonatype-work`
-           `cd nexus3`
-           `ls`
-           `cat admin.password`
+           - `docker exec -it container_id /bin/bash`
+           - `ls`
+           - `cd sonatype-work`
+           - `cd nexus3`
+           - `ls`
+           - `cat admin.password`
            ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/1ee0340c-cce4-44e8-b6c0-38e9ab9823ae)
 
 
