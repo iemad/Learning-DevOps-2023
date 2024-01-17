@@ -83,15 +83,25 @@
        - Go to SonarQube via browser: Administration > Configuration > Webhooks > Create
          Here the URL is Jenkin's URL.
          ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c95f6beb-d7e6-47ed-b917-e336f95377fb)
-       - Now we can add this stage in the Pipeline syntax. 
+       - Now we can add this stage in the Pipeline syntax.
+     - Carefully check in the Portal: 'Deploy artifacts to Nexus' part of the pipeline. But the bottom one is easier here:
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/20266c9e-b340-4d55-925a-5e8dde59acf2)
    - Go to Manage Jenkins and go to Managed files.
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/349810ed-9371-4907-b2fb-5e37756dd50b)
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d947e1d2-d16c-42d3-b83b-1d26c447173e)
-1) Fix POM File:
+2) Fix POM File:
    - Grab these URLs:
      ![297521911-6b5ac7c5-1c22-4be6-a71c-a84cf7de28a7](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c88456df-2630-42f0-9578-66aa7d107e6a)
    - Replace this part in the POM file
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/186040a3-e078-432b-8e0c-1da6e715bde7)
+3) Nexus:
+   - Fix this:
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/af43ac2a-3dad-4c2a-9bf2-9521e3202873)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/99d64e93-03a6-41fa-b513-e309017d69b3)
+     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/19f70f6a-4064-4972-a375-4d4a0f51d5df)
+
+
+
 
 
    
