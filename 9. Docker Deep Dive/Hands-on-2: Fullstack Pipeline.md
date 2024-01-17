@@ -56,7 +56,17 @@
        - Name: docker
        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e0321fc8-2645-4ee3-9730-ec872731a68a)
        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6589aa14-a9d0-403f-9ccb-740f1512f49b)
-       - Alternative: [image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7c6b23c-ec74-4615-b12e-d629b636869d)
+       - Alternative: [image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7c6b23c-ec74-4615-b12e-d629b636869d) 
+   - Create the Pipeline:
+     - Name: Full-stack-CICD
+     - And click Pipeline
+     - Then: ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d6cd2c50-2c40-4463-82af-8faf35ff768e)
+     - Replicate stages 444444444444444 times
+       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2c37842c-82de-4dc9-b370-c20cb088a714)
+     - Here is the pipeline: Give the lIIIIIIIIIIIIIIIIIIIIIIIIIIIInk here.
+     - ** OWASP is better than Trivy for checking vulnerabilities in dependencies and libraries. Trivy is better than OWASP for scanning Docker images.
+        
+
 
 
 
