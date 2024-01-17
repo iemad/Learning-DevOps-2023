@@ -34,7 +34,7 @@
 
 # Stage 2:
 1) Jenkins:
-   - Install plugins in Jenkins: Eclipse Temurin installer, SonarQube Scanner, Docker, Docker Pipeline, docker-build-step, OWASP Dependency-Check, Maven Integration, Config File Provider. Then restart.
+   - Install plugins in Jenkins: Eclipse Temurin installer, SonarQube Scanner, Docker, Docker Pipeline, docker-build-step, OWASP Dependency-Check, Maven Integration, Config File Provider, Pipeline Maven Integration Plugin. Then restart.
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8b1a2bde-bd9f-4044-8f6c-1023ad7d4691)
      Also, install **Nexus Artifact** Uploader.
    - Go to Tools:
@@ -65,6 +65,8 @@
            - Go to Global
            - Add the token:
              ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6bd871b3-d447-467d-8a46-4ddf1a9bedeb)
+           - Let's Add credentials for Nexus too:
+             ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d3a76cff-04ed-49cf-aaef-804f8e6712a2)
    - Go to System of the Jenkins (We are now going to fix where the .jar file should go:
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e4130838-1724-4894-b0c3-6e6ce81d4190)
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9d9b07e8-2859-4781-932f-51ef51bbfb7a)
@@ -85,7 +87,7 @@
    - Go to Manage Jenkins and go to Managed files.
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/349810ed-9371-4907-b2fb-5e37756dd50b)
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d947e1d2-d16c-42d3-b83b-1d26c447173e)
-2) Fix POM File:
+1) Fix POM File:
    - Grab these URLs:
      ![297521911-6b5ac7c5-1c22-4be6-a71c-a84cf7de28a7](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c88456df-2630-42f0-9578-66aa7d107e6a)
    - Replace this part in the POM file
