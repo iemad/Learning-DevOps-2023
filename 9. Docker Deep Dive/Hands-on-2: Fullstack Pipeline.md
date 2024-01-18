@@ -101,6 +101,9 @@
      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/19f70f6a-4064-4972-a375-4d4a0f51d5df)
 
 
+# Unfinished, start from 01:20:20
+
+
 
 
 
