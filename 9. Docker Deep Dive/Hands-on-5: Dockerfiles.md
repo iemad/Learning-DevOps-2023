@@ -26,7 +26,49 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ccc405dd-30f3-4139-abda-67361fb74688)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/59366dab-1825-460d-ad5f-afb95da13c55)
 13) Now let's build the image:
-    
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ef16ffe0-2a62-4421-a339-4d728e80f197)
+14) Now build a container:
+    The left one is the port of the host and the right one is the port of the container
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/014f62fb-65f3-46b6-9556-cdefbe484ad2)
+
+--------------------------
+
+# NodeJS-based Application
+1) Clone a project: https://github.com/iemad/Basic_NodeJS_WebApp_Public and go inside of that, delete the Dockerfile.
+2) It is good to know that the necessary things are written in the package.json file.
+3) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    
