@@ -36,7 +36,36 @@
 # NodeJS-based Application
 1) Clone a project: https://github.com/iemad/Basic_NodeJS_WebApp_Public and go inside of that, delete the Dockerfile.
 2) It is good to know that the necessary things are written in the package.json file.
-3) 
+3) Let's create a Dockerfile.
+4) Go to Google and search Alpine Node. Now we start writing the Dockerfile.
+   Here in the last line, we are copying all the files from the local to the container.
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/005cb601-075a-4023-b0bc-e013a8f08fdc)
+5) This last line is going to fetch all the necessary dependencies from the package.json file:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/dc71391d-137b-4206-9227-cb2a693bcd2a)
+6) Next we open the port:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a1510054-6a30-4fc0-bb4b-56f9362c95b9)
+7) Let's now start the app:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b050fff1-7710-4aa6-b023-c244d7b727b5)
+8) We can start the app this way as well:
+   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/844b8d84-d43b-4b4c-b6b8-839343a5fd8f)
+9) Now make a Dockerfile in the cloned repo and paste that content.
+10) Then let's build an image:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b973a9e3-0aea-4ea7-a98a-78acf232742c)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/770abae5-c013-4333-b34f-fc0f66cbeb82)
+11) Now let's run a container out of that image:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ee96fb11-0f5f-436d-a99b-c7baa5936787)
+12) Now we can access the app in the browser.
+
+------------------------
+
+# Difference between CMD and Entrypoint
+- The CMD command gets overridden but the ENTRYPOINT command gets appended.
+
+
+   
+   
+
+   
 
 
 
