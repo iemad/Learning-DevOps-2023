@@ -26,5 +26,3 @@
 - Run: `docker-compose up -d`
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/94384bb5-ba42-4198-9a74-1844eda9d3ca)
 - Both the containers are now running as a multi-container application.
-
-  
