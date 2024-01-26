@@ -18,4 +18,6 @@
 - **Volume** is another component of the Kubernetes. The contents of the databases are stored in the volume so that if in case a database pod is restarted, the data is not lost, data persists.
 
 ## Processes running on Master node and Worker nodes.
+
+**start from 25:45**
   
