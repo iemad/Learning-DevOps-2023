@@ -2,7 +2,7 @@
 
 - Basic components of K8s:
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0adf151d-ee55-4a92-8bac-72596365c552)
-- **Master node **and **worker nodes**:
+- **Master node** and **worker nodes**:
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4d4f46c1-13ef-4063-a06e-40d944fe0784)
 - **Pod** is an abstraction of a single or multiple containers. After adding certain things to a container/(s) (for instance YAML file, etc.), it turn(s) into Pod(s). The pod is the smallest component of Kubernetes.
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/16a87903-288d-495d-92fa-1872ecf64d4a)
