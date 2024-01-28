@@ -34,7 +34,7 @@
 - Master Node has mainly 4 processes:
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/62e97c72-e8d1-44ba-bbfa-da80bb065122)
 - **API Server** is the cluster gateway, it maintains all the requests coming to the cluster.
-- **Controller manager** keeps an eye on pods which ones are running and which ones are not and it reports to the scheduler.
+- **Controller manager** contains information about state changes.
 - **Scheduler** monitors and creates/redeploys new pods where necessary.
 - **ETCD** holds information in a key-value pair. The controller manager gets information from ETCD regarding when, what, where to watch, and how.
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/40612bd0-1f49-49d2-b0b8-2a44955e3815)
