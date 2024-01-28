@@ -37,5 +37,6 @@
 - **Controller manager** contains information about state changes.
 - **Scheduler** monitors and creates/redeploys new pods where necessary.
 - **ETCD** holds information in a key-value pair. The controller manager gets information from ETCD regarding when, what, where to watch, and how.
-  ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/40612bd0-1f49-49d2-b0b8-2a44955e3815)
   A request to create a new pod came to the API server then it API server passed it to the Scheduler and then the scheduler passed it to Kubelet.
+  ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/40612bd0-1f49-49d2-b0b8-2a44955e3815)
+  
