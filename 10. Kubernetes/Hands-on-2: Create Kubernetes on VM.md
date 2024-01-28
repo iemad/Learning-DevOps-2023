@@ -24,9 +24,14 @@
       - The way to delete a pod is the delete the deplyment. An attempt to delete a pod will terminate the existing one and along with that a new pod will be created since the deployment is there and working fine.
      
     - Editing a pod:
-      - We can edit a deployment. There we will get a YML file where we can mention the number of the pods of an application we would like to get.
+      - We can edit a deployment. There we will get a YML file where (in the 'replicas' variable) we can mention the number of the pods of an application we would like to get.
         - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/89804d33-72db-4740-9100-573f3818ba5c)
         - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3c6d4ed5-098b-4de4-898f-f68dd8917945)
+        - Here are two pods from a single deployment.
+          ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/334e83ad-c149-4f52-bae8-7f9e5e471a71)
+          ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0455bb0c-7d39-4e59-abf0-6e4036d63dbd)
+        - 
+
 
 
 
