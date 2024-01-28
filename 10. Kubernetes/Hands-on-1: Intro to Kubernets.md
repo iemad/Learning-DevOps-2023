@@ -32,7 +32,7 @@
 
 ### Master Node:
 - Master Node has mainly 4 processes:
-  ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/62e97c72-e8d1-44ba-bbfa-da80bb065122)
+  ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/eb99de53-e1e6-4c02-bd6e-52307a8e1f95)
 - **API Server** is the cluster gateway, it maintains all the requests coming to the cluster.
 - **Controller manager** contains information about state changes.
 - **Scheduler** monitors and creates/redeploys new pods where necessary.
