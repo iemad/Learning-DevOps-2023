@@ -22,7 +22,6 @@
       - That deployment create a pod
         ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f7413e7e-8be9-4669-8c69-f48983ea9edc)
       - The way to delete a pod is the delete the deplyment. An attempt to delete a pod will terminate the existing one and along with that a new pod will be created since the deployment is there and working fine.
-     
     - Editing a pod:
       - We can edit a deployment. There we will get a YML file where (in the 'replicas' variable) we can mention the number of the pods of an application we would like to get.
         - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/89804d33-72db-4740-9100-573f3818ba5c)
@@ -30,8 +29,19 @@
         - Here are two pods from a single deployment.
           ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/334e83ad-c149-4f52-bae8-7f9e5e471a71)
           ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0455bb0c-7d39-4e59-abf0-6e4036d63dbd)
-        - 
+       
+  - Let's understand YAML files.
+    - Deployment yaml is responsible for creating Pods.
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/797d1bed-fd6a-4860-b369-55f6de3e3127)
+    - Service yaml is responsible for communication between pods.
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9e798849-f3a1-47e4-9616-2cb32e9911a7)
 
+  - Now let's create YAML files in Master node. We are starting from the begining, deleteing the old pods by deleting old deployments.
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54c68b66-1a07-4bfc-9450-39c65aa75eec)
+
+
+
+start from 1 hr 23 mins.
 
 
 
