@@ -27,7 +27,7 @@
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/81aff654-e4a8-4034-8a9e-df0aac3e9b31)
 - Containers inside Pods are managed by **Container Runtime**. There are different kinds of container runtimes like container ID, Docker, etc.
 - **Kubelet** is responsible for assigning resources to pod(s) and recreating a pod if that is crashed or stopped.
-- ** Kube Proxy** forward the request to the appropriate pod.
+- **Kube Proxy** forward the request to the appropriate pod.
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8e00261e-afe4-4777-aadf-3cd3db2a5a64)
 
 ### Master Node:
