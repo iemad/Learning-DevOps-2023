@@ -36,7 +36,7 @@
     - Service yaml is responsible for communication between pods.
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9e798849-f3a1-47e4-9616-2cb32e9911a7)
 
-  - Now let's create YAML files in Master node. We are starting from the begining, deleteing the old pods by deleting old deployments.
+  - Now let's create YAML files in Master node. We are starting from the beginning, deleting the old pods by deleting old deployments.
     - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54c68b66-1a07-4bfc-9450-39c65aa75eec)
     - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ebe54c01-3840-4dff-9afc-69dd142125bd)
     - Paste these things:
