@@ -37,11 +37,85 @@
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9e798849-f3a1-47e4-9616-2cb32e9911a7)
 
   - Now let's create YAML files in Master node. We are starting from the begining, deleteing the old pods by deleting old deployments.
-    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54c68b66-1a07-4bfc-9450-39c65aa75eec)
+    - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54c68b66-1a07-4bfc-9450-39c65aa75eec)
+    - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ebe54c01-3840-4dff-9afc-69dd142125bd)
+    - Paste these things:
+      ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e037cc89-67a5-449f-90af-82b9b9e8f665)
+    - Now we are going to create the service file
+      - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/45f3f762-887b-48a2-89ef-6c25653c6d63)
+      - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/1608a196-9da3-49b7-972a-bbead8b3fe4c)
+     
+    - Let's create a pod:
+      - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5ada7971-0c4c-4adf-8c45-01c264b1b0d8)
+      - Now one deployment is there and it should start the pod:
+        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/35830429-e326-4fc1-84ea-8794fa53f470)
+      - If we would like to get 2 pods then:
+        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7ce9d712-8be5-455b-9ec1-469e3b9401b3)
+        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/94420e14-c2d5-4c79-9b34-fb9a4d87bc91)
+        - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/05e258e9-7a68-41e4-99a3-bd07ac0b6a47)
+        - To learn more about a pod:
+          ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/70bbc012-e8ab-4314-a1cc-686c50037f0b)
+
+    - Let's deploy:
+      - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6ac5dc64-6242-486b-9dbf-bbcabc71a351)
+
+
+      
+
+          
+
+
+       
 
 
 
-start from 1 hr 23 mins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
