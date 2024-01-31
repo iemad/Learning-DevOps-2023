@@ -6,20 +6,20 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/aa63be68-c428-46c1-b869-8ffaee06d24e)
 
 
-- Deplyment:
+- Deployment:
   - We are going to try out this combination:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/edb2d2ba-878f-4823-82c3-30cb5177c387)
   - In the VMs, ports 6443 and 30000-32767 should be kept open along with other necessary ones.
   - Create two Ec2 instances and update them.
-  - Now we need to do these step:
+  - Now we need to do these steps:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/408a3bec-0f57-4020-96c9-5a679ff50c28)
     Copy this part and run it on the worker node to add that node to the master.
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2dc28742-7f8d-49d2-908a-c4abdcc80cff)
-  - Few sets of commands we need to know:
+  - A few sets of commands we need to know:
     - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/408554d0-d7c3-4f51-bc21-3c0ee13ae36b)
     - Way to create a pod:
-      - First we create deployment using a Docker image
-      - That deployment create a pod
+      - First, we create deployment using a Docker image
+      - That deployment creates a pod
         ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f7413e7e-8be9-4669-8c69-f48983ea9edc)
       - The way to delete a pod is the delete the deplyment. An attempt to delete a pod will terminate the existing one and along with that a new pod will be created since the deployment is there and working fine.
     - Editing a pod:
@@ -36,7 +36,7 @@
     - Service yaml is responsible for communication between pods.
       ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/9e798849-f3a1-47e4-9616-2cb32e9911a7)
 
-  - Now let's create YAML files in Master node. We are starting from the beginning, deleting the old pods by deleting old deployments.
+  - Now let's create YAML files in the Master node. We are starting from the beginning, deleting the old pods by deleting old deployments.
     - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54c68b66-1a07-4bfc-9450-39c65aa75eec)
     - ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ebe54c01-3840-4dff-9afc-69dd142125bd)
     - Paste these things:
