@@ -33,6 +33,22 @@
 - Now we are going to create our own Dashboard:
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4d8fbc2d-0548-430f-81c2-8a99c7a8a2a1)
   ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f228276d-c2fe-4d2b-9353-18aa5ee7b779)
+  - Let's make some traffic:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/dddaaf11-fc6e-49d8-a0f8-acde81eaa8ea)
+  - We can see the changes in the dashboard:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3ab5f68e-fbd9-4d40-85c2-79cf50008217)
+
+- Creating an alert rule:
+  - We need two things:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/45364926-14eb-49cf-a00e-725d0b16a7db)
+  - Now we are creating a contact point:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2e72d3a4-ceb7-481c-89d5-06cec7326f59)
+
+
+    
+    
+
+
 
 
 
