@@ -50,6 +50,33 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/16a8eb1c-f8cc-4074-8b0b-52c6afa22aa2)
   - Time to create alert rule:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ff4c6cfc-22c0-45f5-a9b3-4b7abd4f69ea)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/33a04700-4be7-42cf-9b52-0b55ea419af2)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/df624515-3157-4152-9c4f-63223a1a122b)
+    And now click on 'Run Queries' and the graph will be created.
+
+    Some more things:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/31b1d873-35f8-439b-bd58-61e5fffacbed)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/284a0fdd-c2cd-4c9d-9345-5e547fbd5c5b)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3242d299-a2af-4048-8e0a-1bb9301a658f)
+
+    Then we can go to the Notification Policies:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/4b553e18-b155-4a50-99d1-01e088a74cdc)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/460bcaba-84e3-4c3c-8cbc-456eb299c09d)
+
+    Now if we generate some traffic:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/cfe99e41-1c34-4c62-8e01-38820d486549)
+
+    We will get this:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b0b89808-2086-42a1-b22e-3b300d143ed7)
+
+
+
+
+
+
+
+
+
 
 
 
