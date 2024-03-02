@@ -43,6 +43,17 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/45364926-14eb-49cf-a00e-725d0b16a7db)
   - Now we are creating a contact point:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/2e72d3a4-ceb7-481c-89d5-06cec7326f59)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/60154800-760a-4f0d-86dd-04d8ae5cd97a)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7c28496a-5482-4155-b264-47ef8fa2b772)
+
+    If we send a notification then the alert in the pipedream is here:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/16a8eb1c-f8cc-4074-8b0b-52c6afa22aa2)
+  - Time to create alert rule:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ff4c6cfc-22c0-45f5-a9b3-4b7abd4f69ea)
+
+
+
+
 
 
     
