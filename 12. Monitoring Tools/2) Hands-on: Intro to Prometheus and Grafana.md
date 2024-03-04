@@ -18,6 +18,10 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/fd661d76-16df-4787-8e3e-addbf05ef8f8)
     This is the IP of the VM:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/74890f05-a14d-4625-a161-5f93f82cc736)
+11) Now install Prometheus and Grafana:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ba7bc942-aa26-40bf-842b-b6e6e8c4c265)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f5d9494d-733b-476c-a9a8-66febd6ea125)
+12) 
 
 
 
