@@ -9,11 +9,16 @@
 6) Install net-tools: `apt install net-tools`
 7) Things should be good now:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ccea1901-3c60-4c52-993f-a122bd7b5955)
-8) This file needs to get permission modified:
+8) We can not proceed further, this file needs to get permission modified:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/918a1c19-2a6d-4646-9946-d9bd0cda1f49)
 9) Now we can do this again:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/71ad48f6-2158-4049-a08c-ef66214a9a8a)
    Now it is running on 9115.
-10) 
+10) Let's change the IP of this file:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/fd661d76-16df-4787-8e3e-addbf05ef8f8)
+    This is the IP of the VM:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/74890f05-a14d-4625-a161-5f93f82cc736)
+
+
 
    
