@@ -21,9 +21,11 @@
 11) Now install Prometheus and Grafana:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ba7bc942-aa26-40bf-842b-b6e6e8c4c265)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f5d9494d-733b-476c-a9a8-66febd6ea125)
-
-
-# Start from 29:00 from Module 12
+12) Let's access the applications: IP:9115 and IP:9090 and IP:3000
+13) Now Blackbox and Prometheus are connected: 
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a3ba4497-ad09-4ca6-9dd3-3cc7d4231655)
+14) Access the Grafana, ID, and Password are 'admin', 'admin'.
+15) 
 
 
 
