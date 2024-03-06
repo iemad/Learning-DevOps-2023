@@ -5,7 +5,7 @@
 3) Go there: _https://github.com/iemad/Monitoring_, clone it the VM
 4) Execute this in the background:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/725175ce-6b97-470b-bdbd-52fe71980a89)
-5) Check the status of Blackbox Exporter if it is set up or not, run this command: `netstat -tunlp`
+5) Check the status of Blackbox Exporter if it is set up or not, run this command: `netstat -tunlp`. (The Blackbox Exporter is a prober that allows you to probe various endpoints over different protocols, including HTTP, HTTPS, DNS, TCP, ICMP, and gRPC.)
 6) Install net-tools: `apt install net-tools`
 7) Things should be good now:
    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ccea1901-3c60-4c52-993f-a122bd7b5955)
