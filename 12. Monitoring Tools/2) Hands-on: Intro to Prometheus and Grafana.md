@@ -35,8 +35,9 @@
     HTTP method should be this:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/364cdb7a-7e9e-472a-b26f-2af1ded18884)
     And then save.
-16) Let's make a dashboard:
-    
+16) Let's make a dashboard now and we can use this file:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0b1a0824-6984-4ea7-96b1-16fd238084cd)
+17) 
 
 
 
