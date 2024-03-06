@@ -61,6 +61,26 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b493618a-d57b-4d78-b881-dbd63a4aa4fb)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/06a8fd2a-212c-41af-b661-0ee9401cd9b0)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/dd9b00ba-b95c-4931-b673-ac81e6259db2)
+20) Configure Alert for SSL Certificate:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/21fa1e41-9771-4d18-b9a4-a03335581daf)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/7eaf22e1-b427-4489-82b1-eba1e4633c31)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c43a7a80-e124-4f76-8c51-d76713b498c8)
+    Delete these:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/54613dd3-6641-48e0-a01f-fe5d7c3eaa0d)
+    Then:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d7d4a6de-d49a-45da-b255-88d404476138)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/6e65554f-c514-4849-ab49-bcd7c11ed7f4)
+
+    
+
+    
+
+
+
+
+    
+
+    
 
     
 
