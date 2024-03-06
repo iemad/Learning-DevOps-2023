@@ -37,7 +37,50 @@
     And then save.
 16) Let's make a dashboard now and we can use this file:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/0b1a0824-6984-4ea7-96b1-16fd238084cd)
-17) 
+17) Now it is time for the Alert Notification part:
+    First, we need to edit this file:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/de52eff2-4ae8-4744-9450-f61627e9a07b)
+    The password should be generated from Gmail in this case:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/17a8a885-4bfc-4188-bd9a-78470f99c128)
+    Grafana should be restarted:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/edd5812b-32ec-448e-8f78-d73f14d05018)
+18) Set contact point, test, and save:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/71e2c12c-377d-4b92-9f08-d1646009a57f)
+19) Let's configure the condition:
+    Go here:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/554180a8-46d1-40cf-bc31-59f24ffcf6b6)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/c1e94dd0-6879-401b-8cfb-69de3f7bffae)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d234abde-7ee2-4c4f-861c-17b7edb02c28)
+    Here Google will show an error but GitHub will not:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/8608f6a1-f7e4-4469-82a6-378533420c15)
+    Let's proceed:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/d6a6e71e-23c1-4747-995f-bb913dc3d63a)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/892feab9-fea9-4505-a4b9-8338f46557ae)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/e27d9786-ad82-493c-b7fe-e8459c4acedb)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/62cb239f-10a4-407b-96b4-b08ec86b893c)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/b493618a-d57b-4d78-b881-dbd63a4aa4fb)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/06a8fd2a-212c-41af-b661-0ee9401cd9b0)
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/dd9b00ba-b95c-4931-b673-ac81e6259db2)
+
+    
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+    
+
+
+
+    
 
 
 
