@@ -22,10 +22,25 @@
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/ba7bc942-aa26-40bf-842b-b6e6e8c4c265)
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/f5d9494d-733b-476c-a9a8-66febd6ea125)
 12) Let's access the applications: IP:9115 and IP:9090 and IP:3000
-13) Now Blackbox and Prometheus are connected: 
+13) Now Blackbox and Prometheus are connected:
     ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/a3ba4497-ad09-4ca6-9dd3-3cc7d4231655)
+    Here is where it is stated:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/32444039-02f1-4dd5-bebc-49efbdcdef29)
 14) Access the Grafana, ID, and Password are 'admin', 'admin'.
-15) 
+15) Now let's connect Grafana and Prometheus:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/3ddf4e6d-3ce4-42f8-a805-c6792204f94a)
+    Choose 'Prometheus' as the source and proceed ahead.
+    Give the URL of the Prometheus server:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/66a7a111-a3b4-475c-8f1d-ee26a5cce344)
+    HTTP method should be this:
+    ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/364cdb7a-7e9e-472a-b26f-2af1ded18884)
+    And then save.
+16) Let's make a dashboard:
+    
+
+
+
+    
 
 
 
