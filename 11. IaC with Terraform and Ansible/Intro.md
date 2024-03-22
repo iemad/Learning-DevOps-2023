@@ -11,6 +11,7 @@
 - Terraform core: It creates all the resources. It talks to the **Provider** which means the what cloud provider we are using. Then it will start creating **Resources**
 
 
+## Playing with Terraform in EC2:
 
 
 
