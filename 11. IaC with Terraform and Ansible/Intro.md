@@ -12,7 +12,43 @@
 
 
 ## Playing with Terraform in EC2:
-- Launch an EC2.
+- Launch an EC2, update it.
+- Now install Terraform:
+  - Get the commands from hashicorp.com and run them.
+  - Check if the Terraform is installed or not: `terraform -v`
 - 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
