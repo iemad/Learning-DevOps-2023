@@ -12,6 +12,7 @@
 
 
 ## Playing with Terraform in EC2:
-
+- Launch an EC2.
+- 
 
 
