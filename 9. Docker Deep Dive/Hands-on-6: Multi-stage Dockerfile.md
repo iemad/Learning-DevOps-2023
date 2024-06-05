@@ -1,5 +1,6 @@
 - Check this: [https://github.com/jaiswaladi2468/Multistage-Dockerfile]
 - 2-stages Dockerfile: [https://github.com/jaiswaladi2468/Multistage-Dockerfile/blob/main/Dockerfile]. Now we can do things easily.
+- The main idea is to build things with stage 1 and then run the outcome of stage 1 in the stage 2 container. 
 
 
 
