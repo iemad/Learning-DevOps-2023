@@ -10,7 +10,8 @@
 - Now run the app: ![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/5c5ce3f0-bd9a-466b-98db-2fc74eaba831)
 - Here is a NodeJS based app:![image](https://github.com/iemad/Learning-DevOps-2023/assets/17620076/1e02c22b-b87b-4116-ba4a-1a96dd09b429)
   - In 1, we are building the image
-  - In 2, we are taking the output of the building stage and running it in a separate container. 
+  - In 2, we are taking the output of the building stage and running it in a separate container.
+  - Everything is almost same but map it like this -> 3000:3000
 
 
 
